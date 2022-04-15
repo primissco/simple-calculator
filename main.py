@@ -13,12 +13,12 @@ calc = str(input("What do you want to do with them? (+,-,*,/):  "))
 clear()
 
 if calc == "+":
-    print(f"{firstnumber} + {secondnumber} = ", firstnumber + secondnumber)
+    print(f"{firstnumber} + {secondnumber} = {firstnumber + secondnumber}")
 elif calc == "-":
-    print(f"{firstnumber} - {secondnumber} = ", firstnumber - secondnumber)
+    print(f"{firstnumber} - {secondnumber} = {firstnumber - secondnumber}")
 elif calc == "*":
-    print(f"{firstnumber} * {secondnumber} = ", firstnumber * secondnumber)
+    print(f"{firstnumber} * {secondnumber} = {firstnumber * secondnumber}")
 elif calc == "/":
-    print(f"{firstnumber} / {secondnumber} = ", firstnumber / secondnumber)
+    print(f"{firstnumber} / {secondnumber} = {firstnumber / secondnumber}")
 
 input()
